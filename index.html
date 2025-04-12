@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glosario de Tecnología de Espectáculos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        h2 {
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        .item {
+            background-color: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item-content {
+            flex: 2;
+            min-width: 300px;
+        }
+        .item-image {
+            flex: 1;
+            min-width: 200px;
+            text-align: center;
+        }
+        .item-image img {
+            max-width: 100%;
+            height: auto;
+            max-height: 200px;
+            border-radius: 5px;
+        }
+        .item h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .item p {
+            margin-bottom: 5px;
+        }
+        .description {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Glosario de Tecnología de Espectáculos</h1>
+
+    <h2>Control y Comunicación</h2>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>MIDI (Interfaz Digital de Instrumentos Musicales)</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Protocolo de comunicación entre instrumentos musicales y software.</p>
+                <p><strong>Para qué sirve:</strong> Enviar notas, controles (volumen, efectos) y sincronizar dispositivos.</p>
+                <p><strong>Qué hace:</strong> Permite grabar, editar y reproducir música digital (ej.: conectar un teclado a una computadora).</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://cecm.indiana.edu/361/images/midi-simple-setup.png" alt="Configuración simple MIDI">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>DMX (Digital Multiplex)</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Protocolo estándar para controlar equipos de iluminación (luces robóticas, dimmers, etc.).</p>
+                <p><strong>Para qué sirve:</strong> Enviar señales desde una consola o software para sincronizar espectáculos de luces.</p>
+                <p><strong>Qué hace:</strong> Controla intensidad, color, movimiento y efectos de las luces en tiempo real.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://dmxusb.com/wp-content/uploads/2024/04/Picture-of-DMX-console-DMX-Diagram-v2.jpg" alt="Diagrama de sistema DMX">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>OSC (Open Sound Control)</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Protocolo alternativo a MIDI, más flexible y moderno.</p>
+                <p><strong>Para qué sirve:</strong> Comunicar dispositivos y software (arte interactivo, instalaciones, música).</p>
+                <p><strong>Qué hace:</strong> Transmite datos complejos (coordenadas 3D, sensores) en redes locales.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://c74.maxforlive.com/images/screenshots/?ss=OSC%20Tools.jpg&id=1099" alt="Interfaz de OSC en Max/MSP">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Art-Net/sACN</h3>
+            <p>Protocolos de red DMX sobre Ethernet.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.ledlightinghut.com/pub/media/wysiwyg/Artnet_dmx_converter_connection_diagram-1.jpg" alt="Diagrama de conexión Art-Net/sACN">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>SMPTE</h3>
+            <p>Código de tiempo para sincronización A/V/Iluminación.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://i.ytimg.com/vi/r7ateI0sGo0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAo8Kyw2qXxiFyx0oseekGhYFWbpQ" alt="SMPTE Timecode Display">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Timecode</h3>
+            <p>Sincronización temporal.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://i0.wp.com/www.soundreview.biz/wp-content/uploads/2017/06/TC-generator.jpg" alt="Timecode Generator">
+        </div>
+    </div>
+
+    <h2>Conexiones Físicas</h2>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>XLR</h3>
+            <p>Conector balanceado de audio/DMX.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.sweetwater.com/insync/media/2018/07/XLR-Connector-Male-and-Female.jpg" alt="Conector XLR">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>TRS/TS</h3>
+            <p>Conectores de audio balanceado/no balanceado.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/hosa_stp_201_1_4_trs_to_1_4_835878.jpg" alt="Cables TRS/TS">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Ethernet</h3>
+            <p>Conector de red para datos/audio digital/control.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://m.media-amazon.com/images/I/61oK7VX85oL._AC_SL1500_.jpg" alt="Cable Ethernet">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Speakon/PowerCON</h3>
+            <p>Conectores de bloqueo para altavoces/alimentación.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://blog.adamhall.com/hr/wp-content/uploads/sites/13/2015/07/Neutrik-speakON-powerCON-1300x866.jpg" alt="Conectores Speakon/PowerCON">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>BNC</h3>
+            <p>Conector de bloqueo para video/sincronización.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/BNC_connector.jpg/1200px-BNC_connector.jpg" alt="Conector BNC">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>SDI</h3>
+            <p>Serial Digital Interface (video digital profesional).</p>
+        </div>
+        <div class="item-image">
+            <img src="https://cdn.shopify.com/s/files/1/1680/7313/files/s-l1600-3_medium.jpg?v=1556615046" alt="Cable SDI">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>HDMI</h3>
+            <p>High-Definition Multimedia Interface (video/audio digital).</p>
+        </div>
+        <div class="item-image">
+            <img src="https://m.media-amazon.com/images/I/61hhQNgGMdL._SL1500_.jpg" alt="Cable HDMI">
+        </div>
+    </div>
+
+    <h2>Software</h2>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>DAW</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Software para hacer música (grabar, editar, mezclar).</p>
+                <p><strong>Para qué sirve:</strong> Producir canciones, beats o sonidos en computadora.</p>
+                <p><strong>Qué hace:</strong> Permite grabar voces/instrumentos, usar instrumentos virtuales (VST) y ordenar pistas.</p>
+                <p><strong>Ejemplos:</strong> Ableton Live, FL Studio, Pro Tools, Logic.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/p/protools_01-q9VAySOY2clOGm0m3viIYBnspPYM2WV5.jpg" alt="DAW (Pro Tools)">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Ableton Live</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> DAW (Digital Audio Workstation) para producción musical y presentaciones en vivo.</p>
+                <p><strong>Para qué sirve:</strong> Producir música, mezclar pistas y tocar en directo con loops.</p>
+                <p><strong>Qué hace:</strong> Secuenciar audio/MIDI, automatizar efectos y sincronizar hardware.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://cdn-resources.ableton.com/resources/filer_thumbnails/public/2013/11/21/push_live_overview.jpg__850x478_q85_crop_subsampling-2_upscale.jpg" alt="Ableton Live">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Lighting Console Software</h3>
+            <p>Software de control de iluminación.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.musicradar.com/news/tech/namm-2015-video-lighting-console-software-for-ios-612530" alt="Software de Consola de Iluminación">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Media Server Software</h3>
+            <p>Software de gestión/reproducción de video.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://provideocoalition.com/wp-content/uploads/Watchout.jpg" alt="Media Server Software">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Show Control Software</h3>
+            <p>Software de integración/automatización de sistemas.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://qlab.app/static/img/home/qlab-window.png" alt="Show Control Software (QLab)">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Resolume</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Software de VJing y mapping proyectivo.</p>
+                <p><strong>Para qué sirve:</strong> Manipular y mezclar videos en vivo (conciertos, instalaciones).</p>
+                <p><strong>Qué hace:</strong> Superponer capas, aplicar efectos y sincronizar con audio o DMX.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://resolume.com/images/interface-arena-8.jpg" alt="Resolume">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Blender</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Software gratuito de modelado 3D, animación y renderizado.</p>
+                <p><strong>Para qué sirve:</strong> Crear gráficos 3D, efectos visuales (VFX), videojuegos o motion graphics.</p>
+                <p><strong>Qué hace:</strong> Herramientas para esculpir, texturizar, simular física y editar video.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://download.blender.org/branding/blender_logo_socket.png" alt="Blender">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>VVVV (o 4v)</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Entorno de programación visual para tiempo real (arte generativo, instalaciones interactivas).</p>
+                <p><strong>Para qué sirve:</strong> Crear visuals, controlar hardware (DMX, OSC), procesar video/sensores.</p>
+                <p><strong>Qué hace:</strong> Conectar nodos (sin código) para generar gráficos, sonido o interactividad.</p>
+                <p><strong>Ejemplo:</strong> Controlar proyecciones con un Kinect + OSC + luces DMX.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://vvvv.org/sites/default/files/imagecache/large/images/vvvv50_16.png" alt="VVVV">
+        </div>
+    </div>
+
+    <h2>Equipos de Audio</h2>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Mixer</h3>
+            <p>Consola de mezcla de audio.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.sweetwater.com/insync/media/2019/01/analog-mixer-digital-mixer-1200x600.jpg" alt="Consola de Mezcla">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>PA</h3>
+            <p>Public Address (sistema de sonido).</p>
+        </div>
+        <div class="item-image">
+            <img src="https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/p/pa_system_guide_01-N3JIQvhscOtVjwVTa8H3jvAzE1BelLK7.jpg" alt="Sistema PA">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Monitor</h3>
+            <p>Altavoz de escucha en escenario.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5WxCNRfvocPabGWx7oci8vmJrQwQ-9XLXDQ&usqp=CAU" alt="Monitor de Escenario">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Microphone</h3>
+            <p>Transductor de sonido a señal eléctrica.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://media.sweetwater.com/api/i/q-82__ha-ff066c3d1c566cde__hmac-95a8e5c784b2113d9e480f7b2efbcf0cbfc8eb35/images/items/750/SM58-large.jpg" alt="Micrófono">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>DI Box</h3>
+            <p>Direct Inject box (para conectar instrumentos).</p>
+        </div>
+        <div class="item-image">
+            <img src="https://media.sweetwater.com/api/i/q-82__ha-51ac1c4645c77093__hmac-001c9f9640a26646a4ae6ddf7853a5e11b50e933/images/items/750/ProDI-large.jpg" alt="DI Box">
+        </div>
+    </div>
+
+    <h2>Equipos de Iluminación</h2>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Fixture</h3>
+            <p>Unidad de iluminación.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.adj.com/media/catalog/product/cache/926507dc7f93631a094422215b778fe0/s/i/sizzle-1.jpg" alt="Fixture de Iluminación">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Moving Light</h3>
+            <p>Luz robotizada controlable.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/b/beststage1-qX4uXkfEA3XuCUJIgGiGKUtqB1E6c_Ki.jpg" alt="Luz Móvil">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Static Light</h3>
+            <p>Luz fija (Par, Fresnel, Elipsoidal).</p>
+        </div>
+        <div class="item-image">
+            <img src="https://i0.wp.com/theatrixtechnology.com/wp-content/uploads/2017/10/par-can-004.jpg" alt="Luz Estática">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>LED Fixture</h3>
+            <p>Luz con diodos emisores de luz.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.adj.com/media/catalog/product/cache/926507dc7f93631a094422215b778fe0/m/e/mega-bar-50rgb-rc-1.jpg" alt="Fixture LED">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Dimmer</h3>
+            <p>Controlador de intensidad de luz.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.bhphotovideo.com/images/images2500x2500/Eliminator_Lighting_ED_15_4_Channel_DMX_Dimmer_506999.jpg" alt="Dimmer">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Hazer/Fogger</h3>
+            <p>Máquinas de efectos atmosféricos.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://static.bhphoto.com/images/images500x500/chauvet_dj_hurricane_1600_hurricane_1600_fog_machine_1382444590000_1022588.jpg" alt="Máquina de Humo">
+        </div>
+    </div>
+
+    <h2>Equipos de Video</h2>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Projector</h3>
+            <p>Dispositivo de proyección de video.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://m.media-amazon.com/images/I/61CGHv6kmWL.jpg" alt="Proyector">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Proyector (Tiro Corto)</h3>
+            <p>Proyecta desde corta distancia.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://m.media-amazon.com/images/I/71qNEcTD0BL._AC_SX466_.jpg" alt="Proyector Tiro Corto">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Proyector (Láser)</h3>
+            <p>Utiliza fuente de luz láser.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS33vSb_DknmuCS9oqMGNH24RyznnhGRsPjyQ&usqp=CAU" alt="Proyector Láser">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>LED Screen</h3>
+            <p>Pantalla de video modular LED.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://focusedtechnology.com/wp-content/uploads/2019/03/LED-Video-Wall-DisplayS-1-2048x1152.jpg" alt="Pantalla LED">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Switcher</h3>
+            <p>Conmutador de fuentes de video.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/blackmagic_design_swatemtvstu_hd_atem_television_studio_hd_1486396479_1319479.jpg" alt="Video Switcher">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Scaler</h3>
+            <p>Ajusta la resolución de video.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://m.media-amazon.com/images/I/611GnkZ4YOL._AC_SL1500_.jpg" alt="Video Scaler">
+        </div>
+    </div>
+
+    <h2>Términos de Video</h2>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Señal de Video Analógica</h3>
+            <p>Señal de video continua.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://knightcompone.files.wordpress.com/2016/10/component-cable.jpg" alt="Señal de Video Analógica">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Señal de Video Digital</h3>
+            <p>Señal de video discreta (bits).</p>
+        </div>
+        <div class="item-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfKMD3s75_49uKRr4BMxR8sA4Wx1t6AA2Jhg&usqp=CAU" alt="Señal de Video Digital">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Resolución de Video</h3>
+            <p>Número de píxeles en la imagen.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://i.rtings.com/assets/pages/GpHqCeD8/resolution-size-16x9-medium.jpg" alt="Resolución de Video">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Tasa de Refresco</h3>
+            <p>Cuadros por segundo (fps) o Hertz (Hz).</p>
+        </div>
+        <div class="item-image">
+            <img src="https://cdn.mos.cms.futurecdn.net/ZeVEpz8JsWQ4MvLdYXgKSX.jpg" alt="Tasa de Refresco">
+        </div>
+    </div>
+
+    <h2>Términos Generales</h2>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Patching</h3>
+            <p>Conexión física y asignación virtual.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://www.sweetwater.com/insync/media/2017/11/How-to-Use-a-Patch-Bay-patch-bay.jpg" alt="Patching">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Routing</h3>
+            <p>Dirección de señales entre equipos.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/D/DAWbusstructure03-0lW2RGtCcrWTpKE6GATgzVDCrAMOoW3Q.jpg" alt="Routing">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Rigging</h3>
+            <p>Estructura de soporte para equipos.</p>
+        </div>
+        <div class="item-image">
+            <img src="https://i.ytimg.com/vi/Ox-iG2FBRtA/maxresdefault.jpg" alt="Rigging">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Cue</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Marca que indica un momento específico para ejecutar una acción.</p>
+                <p><strong>Para qué sirve:</strong> Sincronizar diferentes elementos del espectáculo.</p>
+                <p><strong>Qué hace:</strong> Permite activar luces, sonido o video en momentos precisos del show.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://uploads-ssl.webflow.com/5eaf5c8b83a1055a34389111/63e3aead3286189b2e5a34bd_cues-list-qlab.jpg" alt="Lista de Cues en software de espectáculos">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Playback</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Sistema de reproducción de contenido pregrabado.</p>
+                <p><strong>Para qué sirve:</strong> Ejecutar audio, video o secuencias de luces durante un espectáculo.</p>
+                <p><strong>Qué hace:</strong> Permite reproducir pistas de música, videos o secuencias programadas desde un dispositivo.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://www.frontofhousemagazine.com/wp-content/uploads/2018/07/PlaybackPro-Plus-2.jpg" alt="Software profesional de Playback para espectáculos">
+        </div>
+    </div>
+
+    <div class="item">
+        <div class="item-content">
+            <h3>Live Feed</h3>
+            <div class="description">
+                <p><strong>Qué es:</strong> Transmisión de video o audio en tiempo real.</p>
+                <p><strong>Para qué sirve:</strong> Mostrar imágenes captadas en vivo durante un evento.</p>
+                <p><strong>Qué hace:</strong> Captura y envía señal desde cámaras a pantallas o sistemas de streaming sin demora.</p>
+            </div>
+        </div>
+        <div class="item-image">
+            <img src="https://img.youtube.com/vi/1lRV4mKBnxo/maxresdefault.jpg" alt="Transmisión en vivo con múltiples cámaras y switcher">
+        </div>
+    </div>
+
+    <footer style="text-align: center; margin-top: 50px; padding: 20px; background-color: #2c3e50; color: white;">
+        <p>Glosario de Tecnología de Espectáculos - Actualizado Mayo 2024</p>
+    </footer>
+</body>
+</html>
